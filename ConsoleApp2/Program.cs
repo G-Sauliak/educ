@@ -6,52 +6,52 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Приложение Калькулятор");
+            Console.WriteLine("Calculator");
             while (true)
             {
-                Console.WriteLine("Выберите операцию:\n1 - Сложение;\n2 - Вычитание; \n3 - Умножение; \n4 - Деление; \n5 - Выход из программы");
+                Console.WriteLine("Choose operation:\n1 - Addition;\n2 - Subtraction; \n3 - Multiplication; \n4 - Division; \n5 - Exit programm");
                 string operation = Console.ReadLine();
                 switch (operation)
                 {
                     case "1":
-                        Console.WriteLine("операция сложения");
-                        Console.WriteLine("Введите первое число");
+                        Console.WriteLine("Addition");
+                        Console.WriteLine("Enter the first number");
                         double a = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Введите второе число");
+                        Console.WriteLine("Enter the second number");
                         double b = Convert.ToInt32(Console.ReadLine());
                         double c;
                         c = a + b;
-                        Console.WriteLine($"Результат: {c}");
+                        Console.WriteLine($"The result is: {c}");
                         break;
                     case "2":
-                        Console.WriteLine("операция вычитания");
-                        Console.WriteLine("Введите первое число");
+                        Console.WriteLine("Subtraction");
+                        Console.WriteLine("Enter the first number");
                         double d = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Введите второе число");
+                        Console.WriteLine("Enter the second number");
                         double e = Convert.ToInt32(Console.ReadLine());
                         double f;
                         f = d - e;
-                        Console.WriteLine($"Результат: {f}");
+                        Console.WriteLine($"The result is: {f}");
                         break;
                     case "3":
-                        Console.WriteLine("операция умножения");
-                        Console.WriteLine("Введите первое число");
+                        Console.WriteLine("Multiplication");
+                        Console.WriteLine("Enter the first number");
                         double k = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Введите второе число");
+                        Console.WriteLine("Enter the second number");
                         double l = Convert.ToInt32(Console.ReadLine());
                         double m;
                         m = l * k;
-                        Console.WriteLine($"Результат: {m}");
+                        Console.WriteLine($"The result is: {m}");
                         break;
                     case "4":
-                        Console.WriteLine("операция деления");
-                        Console.WriteLine("Введите первое число");
+                        Console.WriteLine("Division");
+                        Console.WriteLine("Enter the first number");
                         double o = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Введите второе число");
+                        Console.WriteLine("Enter the second number");
                         double p = Convert.ToInt32(Console.ReadLine());
                         double r;
                         r = o / p;
-                        Console.WriteLine($"Результат: {r}");
+                        Console.WriteLine($"The result is: {r}");
                         break;
                     case "5":
                         Environment.Exit(0);
