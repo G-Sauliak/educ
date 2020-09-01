@@ -9,12 +9,8 @@ namespace ConsoleApp2
             Console.WriteLine("Приложение Калькулятор");
             while (true)
             {
-
                 Console.WriteLine("Выберите операцию:\n1 - Сложение;\n2 - Вычитание; \n3 - Умножение; \n4 - Деление; \n5 - Выход из программы");
                 string operation = Console.ReadLine();
-
-
-
                 switch (operation)
                 {
                     case "1":
@@ -60,7 +56,6 @@ namespace ConsoleApp2
                     case "5":
                         Environment.Exit(0);
                         break;
-
                 }
             }
         }
