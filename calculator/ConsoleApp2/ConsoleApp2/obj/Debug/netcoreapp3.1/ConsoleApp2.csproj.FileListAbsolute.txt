@@ -10,3 +10,4 @@ C:\google\testing\Gena\educ\calculator\ConsoleApp2\ConsoleApp2\obj\Debug\netcore
 C:\google\testing\Gena\educ\calculator\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\ConsoleApp2.dll
 C:\google\testing\Gena\educ\calculator\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\ConsoleApp2.pdb
 C:\google\testing\Gena\educ\calculator\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\ConsoleApp2.genruntimeconfig.cache
+C:\google\testing\Gena\educ\calculator\ConsoleApp2\ConsoleApp2\obj\Debug\netcoreapp3.1\ConsoleApp2.csprojAssemblyReference.cache
