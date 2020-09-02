@@ -9,7 +9,7 @@ namespace ConsoleApp2
             Console.WriteLine("Calculator");
             while (true)
             {
-                Console.WriteLine("Choose operation:\n1 - Addition;\n2 - Subtraction; \n3 - Multiplication; \n4 - Division; \n5 - Exit programm");
+                Console.WriteLine("Choose operation:\n1 - Addition;\n2 - Subtraction; \n3 - Multiplication; \n4 - Division; \n5 - Square root \n6 - Exit programm");
                 string operation = Console.ReadLine();
                 switch (operation)
                 {
@@ -54,6 +54,12 @@ namespace ConsoleApp2
                         Console.WriteLine($"The result is: {r}");
                         break;
                     case "5":
+                        Console.WriteLine("Square root");
+                        Console.WriteLine("Enter the number you want to get the square root of");
+                        double sqrt = Convert.ToInt32(Math.Sqrt(Convert.ToDouble(Console.ReadLine())));
+                        Console.WriteLine($"The result is: {sqrt}");
+                        break;
+                    case "6":
                         Environment.Exit(0);
                         break;
                 }
