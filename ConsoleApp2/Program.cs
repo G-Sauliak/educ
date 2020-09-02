@@ -56,12 +56,17 @@ namespace ConsoleApp2
                     case "5":
                         Console.WriteLine("Square root");
                         Console.WriteLine("Enter the number you want to get the square root of");
-                        double sqrt = Convert.ToInt32(Math.Sqrt(Convert.ToDouble(Console.ReadLine())));
-                        Console.WriteLine($"The result is: {sqrt}");
-                        break;
+                        var sqrt = Math.Sqrt(Convert.ToDouble(Console.ReadLine()));                 
+                                if (sqrt >= 0)
+                                {
+                                    Console.WriteLine($"The result is: {sqrt}");
+                                }
+                                else 
+                                Console.WriteLine("You can't input negative number!");
+                            break;                        
                     case "6":
                         Environment.Exit(0);
-                        break;
+                        break;                        
                 }
             }
         }
