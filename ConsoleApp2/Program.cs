@@ -5,28 +5,24 @@ namespace ConsoleApp2
 {
     class Program
     {
-        static void Checking()
+        static double Checking()
         {
             double a;
             Console.WriteLine("Enter number");
-            while (true)
-            {
-                string str = Console.ReadLine();
-                bool result = double.TryParse(str, out a);
-                if (!result)
+            while (!double.TryParse(Console.ReadLine(),out a))
+            {           
+                           
                 {
                     Console.WriteLine("try again (enter number");
                 }
-                else
-                {
-                    break;
-                }
+                
             }
-            Console.WriteLine("result is " + a);
+            return a;
         }
         static void Main(string[] args)
         {
-            Checking();
+          double z =  Checking();
+            Console.WriteLine(z);
             /*  Console.WriteLine("Calculator");
               string notice = "wrong data (use numbers)";
               while (true)
